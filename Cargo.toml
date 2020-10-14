@@ -7,3 +7,8 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+openssl-sys = "0.9.58"
+openssl = { version = "0.10", features = ["vendored"] }
+member_server = { path = "./member_server" }
+dzq = { path = "./dzq" }
+async-std = { version = "1.2.0", features = ["attributes"] }
