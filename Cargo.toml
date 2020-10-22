@@ -11,4 +11,5 @@ openssl-sys = "0.9.58"
 openssl = { version = "0.10", features = ["vendored"] }
 member_server = { path = "./member_server" }
 dzq = { path = "./dzq" }
+simple_poolweb = { path = "./simple_poolweb" }
 async-std = { version = "1.2.0", features = ["attributes"] }

@@ -8,6 +8,7 @@ use mysql::*;
 use std::io;
 use std::time::{Duration, SystemTime};
 
+///member init
 pub fn init() {
     let connection_string = "mysql://root:HelloDev@192.168.2.53:3306/gmdatabase";
     let pool = Pool::new(connection_string).unwrap();

@@ -1188,6 +1188,7 @@ dependencies = [
  "member_server",
  "openssl",
  "openssl-sys",
+ "simple_poolweb",
 ]
 
 [[package]]
@@ -1313,6 +1314,15 @@ dependencies = [
  "digest",
  "fake-simd",
  "opaque-debug",
+]
+
+[[package]]
+name = "simple_poolweb"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
 ]
 
 [[package]]
